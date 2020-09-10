@@ -3,13 +3,13 @@ import { Provider } from 'react-redux';
 
 import { store } from './store';
 
-import BoxOnHover from './components/BoxOnHover/BoxOnHover.jsx';
+import NavBar from './components/NavBar/NavBar.jsx';
 
 import './App.less';
 
 const App = () => (
 	<Provider store={store}>
-		<BoxOnHover />
+		<NavBar />
 	</Provider>
 );
 
