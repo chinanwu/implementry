@@ -1,6 +1,6 @@
 import React from 'react';
 
-import github from '../resources/github.png';
+import github from '../../resources/github.png';
 
 import Avatar from './Avatar.jsx';
 
