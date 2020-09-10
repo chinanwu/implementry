@@ -3,13 +3,14 @@ import { Provider } from 'react-redux';
 
 import { store } from './store';
 
-import NavBar from './components/NavBar/NavBar.jsx';
+import Hero from './components/Hero/Hero.jsx';
 
 import './App.less';
 
 const App = () => (
 	<Provider store={store}>
-		<NavBar />
+		<Hero />
+		<div>Something after Hero</div>
 	</Provider>
 );
 
