@@ -9,8 +9,8 @@ export const ToastPage = () => {
 	const [showToast, setShowToast] = useState(false);
 
 	const handleClick = useCallback(() => {
-		setShowToast(true);
-	}, [setShowToast]);
+		setShowToast(showToast => !showToast);
+	}, [showToast, setShowToast]);
 
 	return (
 		<div className="ToastPage">
@@ -28,7 +28,8 @@ export const ToastPage = () => {
 				Click me for Toast
 			</button>
 
-			{showToast && createPortal(<Toast />, document.body)}
+			{showToast &&
+				createPortal(<Toast onClose={handleClick} />, document.body)}
 		</div>
 	);
 };
