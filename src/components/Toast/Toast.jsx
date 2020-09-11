@@ -19,6 +19,7 @@ export const Toast = ({ onClose }) => {
 		timer = setTimeout(() => {
 			setVisible(!visible);
 			timer = null;
+			onClose();
 		}, 11000);
 	}
 
