@@ -3,14 +3,13 @@ import { Provider } from 'react-redux';
 
 import { store } from './store';
 
-import Hero from './components/Hero/Hero.jsx';
+import ToastPage from './components/Toast/ToastPage.jsx';
 
 import './App.less';
 
 const App = () => (
 	<Provider store={store}>
-		<Hero />
-		<div>Something after Hero</div>
+		<ToastPage />
 	</Provider>
 );
 
