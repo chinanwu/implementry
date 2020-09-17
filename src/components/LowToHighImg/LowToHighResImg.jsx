@@ -1,5 +1,5 @@
-import React, { useCallback, useState } from 'react';
 import PropTypes from 'prop-types';
+import React, { useCallback, useState } from 'react';
 
 export const LowToHighResImg = ({ className, alt, hiRes, lowRes }) => {
 	const [img, setImg] = useState(lowRes);

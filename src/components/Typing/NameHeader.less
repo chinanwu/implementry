@@ -1,0 +1,53 @@
+.NameHeader {
+	width: 100%;
+	text-align: center;
+	display: flex;
+}
+
+.NameHeader__name {
+	white-space: nowrap;
+	overflow: hidden;
+	//animation: typewriter 6s steps(6);
+}
+
+@keyframes typewriter {
+	0% {
+		width: 10rem;
+	}
+	//16% {
+	//	width: 8.4rem;
+	//}
+	//32% {
+	//	width: 6.7rem;
+	//}
+	//48% {
+	//	width: 4.5rem;
+	//}
+	//64% {
+	//	width: 3.3rem;
+	//}
+	//80% {
+	//	width: 1.5rem;
+	//}
+	//96%,
+	100% {
+		width: 0;
+	}
+}
+
+.NameHeader__cursor {
+	animation: blink 1s infinite;
+	color: black;
+}
+
+@keyframes blink {
+	0% {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+	100% {
+		color: transparent;
+	}
+}

@@ -1,0 +1,39 @@
+.AutoToast {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.AutoToast--hidden {
+	display: none;
+}
+
+.AutoToast__content {
+	background-color: #3a3a3a;
+	animation: fadein 0.5s, fadeout 0.5s 10.5s;
+	transform: translateY(3rem);
+	position: relative;
+	font-size: 1.6rem;
+	color: white;
+	padding: 2.2rem 1.6rem 1.6rem;
+	width: 70%;
+	text-align: center;
+	border-radius: 1rem;
+}
+
+.AutoToast__close {
+	border: none;
+	background-color: grey;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	padding: 0.5rem 0.8rem;
+	border-top-right-radius: 1rem;
+}
+
+.AutoToast__message {
+	font-family: 'Kumbh Sans', sans-serif;
+}

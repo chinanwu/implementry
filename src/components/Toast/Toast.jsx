@@ -20,7 +20,7 @@ export const Toast = ({ onClose }) => {
 			setVisible(!visible);
 			timer = null;
 			onClose();
-		}, 11000);
+		}, 6000);
 	}
 
 	return (

@@ -1,0 +1,36 @@
+.SampleHome_1 {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.SampleHome_1__btn,
+.SampleHome_1__box {
+	width: 20rem;
+}
+
+.SampleHome_1__btn {
+	transform: translateX(0);
+	transition: all 1s;
+	border: 1px solid black;
+}
+
+.SampleHome_1__btn--left {
+	transform: translateX(-10rem);
+}
+
+.SampleHome_1__box {
+	opacity: 0;
+	transition: all 1s;
+	right: 0;
+	position: absolute;
+}
+
+.Sample_1__box--show {
+	display: initial;
+	transform: translateX(-17rem);
+	opacity: 1;
+}

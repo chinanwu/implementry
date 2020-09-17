@@ -1,8 +1,8 @@
 import React from 'react';
 
-import selfie from '../../resources/photo.png';
-import lowres_selfie from '../../resources/sm-photo.png';
-import LowToHighResImg from '../LowToHighImg/LowToHighResImg.jsx';
+import selfie from '../../../resources/photo.png';
+import lowres_selfie from '../../../resources/sm-photo.png';
+import LowToHighResImg from '../../LowToHighImg/LowToHighResImg.jsx';
 
 import './SampleHome_0.less';
 
@@ -25,7 +25,15 @@ export const SampleHome_0 = () => (
 				<h1 className="SampleHome_0__name">Salmon Wu</h1>
 			</div>
 		</div>
-		<div>post</div>
+		<p>
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+			veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+			commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+			velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+			cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+			est laborum."
+		</p>
 	</div>
 );
 

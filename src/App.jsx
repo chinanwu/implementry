@@ -1,15 +1,14 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-
 import { store } from './store';
 
-import ToastPage from './components/Toast/ToastPage.jsx';
+import AutoToast from './components/Toast/AutoToast.jsx';
 
 import './App.less';
 
 const App = () => (
 	<Provider store={store}>
-		<ToastPage />
+		<AutoToast />
 	</Provider>
 );
 

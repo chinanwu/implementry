@@ -5,7 +5,12 @@ import './BoxOnHover.less';
 
 export const BoxOnHover = () => (
 	<div className="Box__container">
-		<div className="Box">Sample text 1</div>
+		<div className="Box">
+			<header className="Box__header">
+				<h1>Delta</h1>
+			</header>
+			<p>A word game made with React, Redux, Golang, and love.</p>
+		</div>
 		<div className="Box">Sample tex 2t</div>
 	</div>
 );
